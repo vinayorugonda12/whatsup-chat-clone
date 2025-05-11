@@ -55,6 +55,11 @@
    
 }
 
+.name{
+    padding: 0%;
+    text-align: center;
+}
+
 .icon{
     height: 30px;
     width: 30px;
@@ -62,7 +67,7 @@
     top: 10px;
     left: 3px;
     /* right: 2px; */
-    margin-right: 3px;
+    margin-right: 2px;
     color: white;
     padding: 4px 4px 4px 3px;
     font-weight: bolder; 
