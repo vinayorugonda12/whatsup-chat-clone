@@ -14,7 +14,25 @@
    scroll-behavior: smooth;
     scrollbar-width: none;
     
+     
+ 
+  
+    
 }
+.chat-body{
+      background-image: url('https://inc42.com/wp-content/uploads/2023/04/MS-Dhoni-Startups-Cover.png');
+      /* position: fixed; */
+      background-size: cover;
+          width: 280px;
+    height: 500px;
+    position: fixed;
+    overflow-y: auto;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+    border-radius: 25px;
+    top: 44px;
+}
+
 
 .profile-container{
     position: sticky;
@@ -28,21 +46,32 @@
 
 }
 
+.profile-image{
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    /* margin: 0px; */
+    /* padding: 0px; */
+   
+}
+
 .icon{
     height: 30px;
     width: 30px;
     position: relative;
-    top: 25px;
-    left: 15px;
-    margin-right: 1px;
+    top: 10px;
+    left: 5px;
+    right: 2px;
+    margin-right: 3px;
     color: white;
-    padding: 5px;
+    padding: 4px 4px 4px 4px;
     font-weight: bolder; 
+    text-align: center;
 }
 
   .icon:hover{
         background-color: rgb(158, 154, 154);
-        padding: 5px;
+        /* padding: 5px; */
     }
 .video{
     margin-left: 20px;
